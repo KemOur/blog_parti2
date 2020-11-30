@@ -1,10 +1,7 @@
 {
-  "name": "cba85/composer-blog",
+  "name": "junior/blogcomposer",
   "description": "A blog using Composer",
   "scripts": {
-    "post-update-cmd": [
-      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-    ],
     "serve": "php -S 0.0.0.0:8080 -t public/"
   },
   "autoload": {
